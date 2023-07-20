@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="wrapper animated bounceInLeft">
               <div className="company-info">
                 <h3 className="company-info-title underlined-heading">
-                  A Creations Farm Stay
+                  Navi Luxury Farm
                 </h3>
                 <ul>
                   <li>
@@ -63,7 +63,7 @@ const Contact = () => {
                     <FaPhone /> : 9393031001 / 9390058561
                   </li>
                   <li>
-                    <FaEnvelope /> : anupkumarheda@gmail.com
+                    <FaEnvelope /> : xxxxx@gmail.com
                   </li>
                 </ul>
               </div>
