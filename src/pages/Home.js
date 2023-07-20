@@ -23,11 +23,11 @@ const Home = () => {
     "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/kitchen/IMG_8053.jpg?raw=true",
   ];
 
-  const barCounterImages = [image1, image2, image3, image4];
+  const barCounterImages = [image2, image3, image1, image4];
 
-  const lawnImages = [image1, image2, image3, image4];
+  const lawnImages = [image4, image2, image3, image1];
 
-  const poolImages = [image1, image2, image3, image4];
+  const poolImages = [image3, image4, image2, image1];
   return (
     <>
       <Navbar />
