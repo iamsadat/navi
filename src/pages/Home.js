@@ -77,11 +77,11 @@ const Home = () => {
       <Whatsapp />
       <div class="container---">
         <ScrollAnimation>
-          <h1>Navi Luxury Farms</h1>
+          <h1>A Creations Farm Stay</h1>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Welcome to Navi Luxury Farms! Escape the hustle and bustle of
+            Welcome to A Creations Farm Stay! Escape the hustle and bustle of
             city life and experience the tranquility of our charming farm
             rental. Nestled in a serene location, our farm stay offers a perfect
             getaway for a relaxing and rejuvenating experience.
