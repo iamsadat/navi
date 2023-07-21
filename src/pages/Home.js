@@ -15,6 +15,7 @@ import image1 from "../assets/photos/image1.jpg";
 import image2 from "../assets/photos/image2.jpg";
 import image3 from "../assets/photos/image3.jpg";
 import image4 from "../assets/photos/image4.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const interiorImages = [image1, image2, image3, image4];
@@ -52,8 +53,8 @@ const Home = () => {
             Immerse yourself in the natural beauty that surrounds our farm.
             Enjoy the picturesque landscapes, breathe in the fresh country air,
             and reconnect with nature. Whether you're seeking a peaceful retreat
-            or an adventure-filled stay, A Creations Farm Stay has something to
-            offer for everyone.
+            or an adventure-filled stay, Navi Luxury Farm has something to offer
+            for everyone.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -115,63 +116,8 @@ const Home = () => {
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
-              <div className="container--text">
-                <h3 className="container--title">Interior</h3>
-                <p className="container--description">
-                  Step into our beautifully designed interior spaces that exude
-                  comfort and charm. Every detail has been carefully crafted to
-                  create a warm and inviting ambiance, ensuring a delightful
-                  stay for our guests.
-                </p>
-              </div>
               <div className="interiorImages-container">
                 <PropertySlider images={interiorImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Pool</h3>
-                <p className="container--description">
-                  Dive into ultimate relaxation in our refreshing pool. Take a
-                  dip to beat the heat, swim a few laps, or simply lounge by the
-                  poolside while enjoying the tranquil surroundings. Our pool
-                  area provides the perfect escape to rejuvenate and unwind.
-                </p>
-              </div>
-              <div className="poolImages-container">
-                <PropertySlider images={poolImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Lawn</h3>
-                <p className="container--description">
-                  Our sprawling lawn offers a serene outdoor space where you can
-                  relax and bask in the beauty of nature. Surrounded by lush
-                  greenery, it's the perfect spot for a leisurely stroll, an
-                  afternoon picnic, or simply unwinding with a good book.
-                </p>
-              </div>
-              <div className="lawnImages-container">
-                <PropertySlider images={lawnImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Bar Counter Setup</h3>
-                <p className="container--description">
-                  Unwind and socialize at our well-equipped bar counter.
-                </p>
-              </div>
-              <div className="barCounterImages-container">
-                <PropertySlider images={barCounterImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Kitchen</h3>
-                <p className="container--description">
-                  Our fully equipped kitchen is a haven for culinary
-                  enthusiasts. Prepare your favorite meals using top-of-the-line
-                  appliances, cookware, and utensils. Embrace your inner chef
-                  and delight in creating delicious dishes that cater to your
-                  personal tastes.
-                </p>
-              </div>
-              <div className="kitchenImages-container">
-                <PropertySlider images={kitchenImages} />
               </div>
             </ScrollAnimation>
           </div>
@@ -271,7 +217,7 @@ const Home = () => {
               <p>For bookings and further inquiries, please contact us at:</p>
             </ScrollAnimation>
             <ScrollAnimation>
-              <p>Phone: 9393031001, 9390058561</p>
+              <p>Phone: 8008929237</p>
             </ScrollAnimation>
             <ScrollAnimation>
               <h1 className="underlined-heading">LOCATION</h1>
@@ -289,14 +235,12 @@ const Home = () => {
             </ScrollAnimation>
             <ScrollAnimation>
               <h3 className="directions">
-                <a
-                  href="https://goo.gl/maps/K98LdEaRfmiFGbgc6"
+                <Link
+                  to="https://goo.gl/maps/K98LdEaRfmiFGbgc6"
                   target="_blank"
-                  rel="noreferrer"
-                  className="directions--a"
                 >
                   Get Directions
-                </a>
+                </Link>
               </h3>
             </ScrollAnimation>
           </div>
@@ -313,14 +257,13 @@ const Home = () => {
                 <h3 className="company-info-title">Navi Luxury Farms</h3>
                 <ul>
                   <li>
-                    <FaRoad /> : 6-29/121/P, Narkhuda, Shamsabad, Hyderabad,
-                    Telangana 501218
+                    <FaRoad /> : Shamshabad, Hyderabad, Telangana 501218
                   </li>
                   <li>
-                    <FaPhone /> : 9393031001 / 9390058561
+                    <FaPhone /> : 8008929237
                   </li>
                   <li>
-                    <FaEnvelope /> : anupkumarheda@gmail.com
+                    <FaEnvelope /> : xxxxx@gmail.com
                   </li>
                 </ul>
               </div>

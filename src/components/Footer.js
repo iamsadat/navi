@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer__col">
           <h4 className="footer__col-title">Social Media</h4>
           <Link
-            to="https://api.whatsapp.com/send?phone=9393031001"
+            to="https://api.whatsapp.com/send?phone=8008929237"
             target="_blank"
             className="footer__link"
           >

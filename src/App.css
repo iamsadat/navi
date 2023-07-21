@@ -587,7 +587,7 @@ ol {
   color: var(--primary-color-dark);
 }
 
-.directions--a {
+.directions--a a {
   text-decoration: none;
 }
 

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/About.css";
@@ -43,12 +44,12 @@ const About = () => {
               <VideoSlider videos={videos} />
             </div>
             <ScrollAnimation>
-              <h1 className="underlined-heading">A Creations Farm Stay</h1>
+              <h1 className="underlined-heading">Navi Luxury Farm</h1>
             </ScrollAnimation>
             <ScrollAnimation>
               <p>
-                Welcome to A Creations Farm Stay! Escape the hustle and bustle
-                of city life and experience the tranquility of our charming farm
+                Welcome to Navi Luxury Farm! Escape the hustle and bustle of
+                city life and experience the tranquility of our charming farm
                 rental. Nestled in a serene location, our farm stay offers a
                 perfect getaway for a relaxing and rejuvenating experience.
               </p>
@@ -58,8 +59,8 @@ const About = () => {
                 Immerse yourself in the natural beauty that surrounds our farm.
                 Enjoy the picturesque landscapes, breathe in the fresh country
                 air, and reconnect with nature. Whether you're seeking a
-                peaceful retreat or an adventure-filled stay, A Creations Farm
-                Stay has something to offer for everyone.
+                peaceful retreat or an adventure-filled stay, Navi Luxury Farm
+                has something to offer for everyone.
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
@@ -104,16 +105,6 @@ const About = () => {
                 cater to your specific needs. With a capacity to accommodate up
                 to 100 guests, our farm stay provides a unique and picturesque
                 venue for your special occasions.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                To get a glimpse of the beauty that awaits you at A Creations
-                Farm Stay, feel free to browse through our{" "}
-                <a href="https://drive.google.com/drive/folders/1-UmEzmp_RIxe1hCB-GrLmRy7WSHHtNnL">
-                  photo gallery
-                </a>
-                .
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
@@ -210,7 +201,7 @@ const About = () => {
                   <p>
                     For bookings and further inquiries, please contact us at:
                   </p>
-                  <p>Phone: 9393031001, 9390058561</p>
+                  <p>Phone: 8008929237</p>
                 </ScrollAnimation>
                 <ScrollAnimation>
                   <h1 className="underlined-heading">LOCATION</h1>
@@ -225,6 +216,16 @@ const About = () => {
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <h3 className="directions">
+                    <Link
+                      to="https://goo.gl/maps/K98LdEaRfmiFGbgc6"
+                      target="_blank"
+                    >
+                      Get Directions
+                    </Link>
+                  </h3>
                 </ScrollAnimation>
               </div>
             </ScrollAnimation>

@@ -56,11 +56,10 @@ const Contact = () => {
                 </h3>
                 <ul>
                   <li>
-                    <FaRoad /> : 6-29/121/P, Narkhuda, Shamsabad, Hyderabad,
-                    Telangana 501218
+                    <FaRoad /> : Shamshabad, Hyderabad, Telangana 501218
                   </li>
                   <li>
-                    <FaPhone /> : 9393031001 / 9390058561
+                    <FaPhone /> : 8008929237
                   </li>
                   <li>
                     <FaEnvelope /> : xxxxx@gmail.com
