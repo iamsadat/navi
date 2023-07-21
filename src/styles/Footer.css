@@ -70,6 +70,11 @@
   .footer__bar {
     text-align: center;
   }
+
+  .map {
+    max-width: 80%;
+    max-height: 300px;
+  }
 }
 
 .whatsapp-icon {

@@ -53,6 +53,7 @@ const Footer = () => {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            className="map"
           ></iframe>
         </div>
       </div>

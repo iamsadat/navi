@@ -3,7 +3,7 @@ import React from "react";
 const Whatsapp = () => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=8008929237"
+      href="https://wa.me/+918008929237"
       target="_blank"
       style={styles.whatsappIcon}
     >
