@@ -28,14 +28,14 @@ const Footer = () => {
         <div className="footer__col">
           <h4 className="footer__col-title">Social Media</h4>
           <Link
-            to="https://api.whatsapp.com/send?phone=9393031001"
+            to="https://api.whatsapp.com/send?phone=8008929237"
             target="_blank"
             className="footer__link"
           >
             Whatsapp
           </Link>
           <Link
-            to="https://www.instagram.com/a_creation_farm_stay/"
+            to="https://www.instagram.com/navi_luxuryfarms/"
             target="_blank"
             className="footer__link"
           >
@@ -46,18 +46,19 @@ const Footer = () => {
         <div className="footer__col">
           <h4 className="footer__col-title">Location</h4>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.102973825073!2d78.3255059!3d17.262252399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbf271a7aa60b%3A0x1fee920eb7355b98!2sA%20Creations%20Farm%20Stay!5e0!3m2!1sen!2sin!4v1689019312797!5m2!1sen!2sin"
-            width="100%"
-            height="300"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.8396264919943!2d78.38048757427228!3d17.226567607419913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbb9f5ace2ed93%3A0x15626a7a17d570fc!2sNavi%20Farm%20House!5e0!3m2!1sen!2sin!4v1689886071627!5m2!1sen!2sin"
+            width="600"
+            height="450"
             style={{ border: "0" }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            className="map"
           ></iframe>
         </div>
       </div>
       <div className="footer__bar">
-        &copy; 2023 A Creations Farm Stay. All rights reserved.
+        &copy; 2023 Navi Luxury Farm. All rights reserved.
       </div>
     </footer>
   );

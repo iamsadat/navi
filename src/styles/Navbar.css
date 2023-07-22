@@ -32,11 +32,26 @@ nav {
   color: white;
 }
 
+.nav__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav--image {
+  opacity: 1;
+  width: 75px; /* Adjust the width and height to fit your logo size */
+  height: 75px;
+  margin-right: 15px; /* Add some spacing between the image and text */
+}
+
 .nav__logo {
+  display: flex; /* Add flex display */
+  align-items: center; /* Center the items inside the flex container */
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-dark);
   text-decoration: none;
+  margin-left: 70px;
   position: relative;
 }
 

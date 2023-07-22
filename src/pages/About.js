@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/About.css";
@@ -6,8 +7,32 @@ import Whatsapp from "../components/Whatsapp";
 import ScrollAnimation from "../components/ScrollAnimation";
 import VideoSlider from "../components/VideoSlider";
 
+import video1 from "../assets/videos/video1.mp4";
+import video2 from "../assets/videos/video2.mp4";
+import video3 from "../assets/videos/video3.mp4";
+import video4 from "../assets/videos/video4.mp4";
+import video5 from "../assets/videos/video5.mp4";
+import video6 from "../assets/videos/video6.mp4";
+import video7 from "../assets/videos/video7.mp4";
+import video8 from "../assets/videos/video8.mp4";
+import video9 from "../assets/videos/video9.mp4";
+import video10 from "../assets/videos/video10.mp4";
+import video11 from "../assets/videos/video11.mp4";
+
 const About = () => {
-  const videos = [];
+  const videos = [
+    video1,
+    video2,
+    video3,
+    video4,
+    video5,
+    video6,
+    video7,
+    video8,
+    video9,
+    video10,
+    video11,
+  ];
   return (
     <>
       <Navbar />
@@ -19,12 +44,12 @@ const About = () => {
               <VideoSlider videos={videos} />
             </div>
             <ScrollAnimation>
-              <h1 className="underlined-heading">A Creations Farm Stay</h1>
+              <h1 className="underlined-heading">Navi Luxury Farm</h1>
             </ScrollAnimation>
             <ScrollAnimation>
               <p>
-                Welcome to A Creations Farm Stay! Escape the hustle and bustle
-                of city life and experience the tranquility of our charming farm
+                Welcome to Navi Luxury Farm! Escape the hustle and bustle of
+                city life and experience the tranquility of our charming farm
                 rental. Nestled in a serene location, our farm stay offers a
                 perfect getaway for a relaxing and rejuvenating experience.
               </p>
@@ -34,8 +59,8 @@ const About = () => {
                 Immerse yourself in the natural beauty that surrounds our farm.
                 Enjoy the picturesque landscapes, breathe in the fresh country
                 air, and reconnect with nature. Whether you're seeking a
-                peaceful retreat or an adventure-filled stay, A Creations Farm
-                Stay has something to offer for everyone.
+                peaceful retreat or an adventure-filled stay, Navi Luxury Farm
+                has something to offer for everyone.
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
@@ -80,16 +105,6 @@ const About = () => {
                 cater to your specific needs. With a capacity to accommodate up
                 to 100 guests, our farm stay provides a unique and picturesque
                 venue for your special occasions.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                To get a glimpse of the beauty that awaits you at A Creations
-                Farm Stay, feel free to browse through our{" "}
-                <a href="https://drive.google.com/drive/folders/1-UmEzmp_RIxe1hCB-GrLmRy7WSHHtNnL">
-                  photo gallery
-                </a>
-                .
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
@@ -186,21 +201,31 @@ const About = () => {
                   <p>
                     For bookings and further inquiries, please contact us at:
                   </p>
-                  <p>Phone: 9393031001, 9390058561</p>
+                  <p>Phone: 8008929237</p>
                 </ScrollAnimation>
                 <ScrollAnimation>
                   <h1 className="underlined-heading">LOCATION</h1>
                 </ScrollAnimation>
                 <ScrollAnimation>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7620.205964181371!2d78.325506!3d17.262252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbf271a7aa60b%3A0x1fee920eb7355b98!2sA%20Creations%20Farm%20Stay!5e0!3m2!1sen!2sin!4v1689205088239!5m2!1sen!2sin"
-                    width="100%"
-                    height="400"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.8396264919943!2d78.38048757427228!3d17.226567607419913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbb9f5ace2ed93%3A0x15626a7a17d570fc!2sNavi%20Farm%20House!5e0!3m2!1sen!2sin!4v1689886071627!5m2!1sen!2sin"
+                    width="600"
+                    height="450"
                     style={{ border: "0" }}
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
+                </ScrollAnimation>
+                <ScrollAnimation>
+                  <h3 className="directions">
+                    <Link
+                      to="https://goo.gl/maps/K98LdEaRfmiFGbgc6"
+                      target="_blank"
+                    >
+                      Get Directions
+                    </Link>
+                  </h3>
                 </ScrollAnimation>
               </div>
             </ScrollAnimation>

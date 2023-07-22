@@ -11,63 +11,24 @@ import "../styles/Gallery.css";
 import Whatsapp from "../components/Whatsapp";
 import ScrollAnimation from "../components/ScrollAnimation";
 
+import image1 from "../assets/photos/image1.jpg";
+import image2 from "../assets/photos/image2.jpg";
+import image3 from "../assets/photos/image3.jpg";
+import image4 from "../assets/photos/image4.jpg";
+import { Link } from "react-router-dom";
+
 const Home = () => {
-  const interiorImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8051.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8052.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8054.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8055.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8056.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8058.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8059.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8061.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/2022-10-25.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8071.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8072.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8074.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8078.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8080.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8082.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8083.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8084.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/2022-10-09%20(1).jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8085.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8088.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8115.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8116.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8119.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8124.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8146.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/interior/IMG_8147.jpg?raw=true",
-  ];
+  const interiorImages = [image1, image2, image3, image4];
 
   const kitchenImages = [
     "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/kitchen/IMG_8053.jpg?raw=true",
   ];
 
-  const barCounterImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/IMG_8047.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/IMG_8076.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/bar-counter/2022-10-25%20(1).jpg",
-  ];
+  const barCounterImages = [image2, image3, image1, image4];
 
-  const lawnImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8076.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8126.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8132.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/lawn/IMG_8136.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/swing.jpg",
-  ];
+  const lawnImages = [image4, image2, image3, image1];
 
-  const poolImages = [
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8048.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/nv.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/img1.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/2022-10-09.jpg",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8050.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8075.jpg?raw=true",
-    "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/pool/IMG_8076.jpg?raw=true",
-  ];
+  const poolImages = [image3, image4, image2, image1];
   return (
     <>
       <Navbar />
@@ -81,10 +42,10 @@ const Home = () => {
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Welcome to A Creations Farm Stay! Escape the hustle and bustle of
-            city life and experience the tranquility of our charming farm
-            rental. Nestled in a serene location, our farm stay offers a perfect
-            getaway for a relaxing and rejuvenating experience.
+            Welcome to Navi Luxury Farms! Escape the hustle and bustle of city
+            life and experience the tranquility of our charming farm rental.
+            Nestled in a serene location, our farm stay offers a perfect getaway
+            for a relaxing and rejuvenating experience.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -92,8 +53,8 @@ const Home = () => {
             Immerse yourself in the natural beauty that surrounds our farm.
             Enjoy the picturesque landscapes, breathe in the fresh country air,
             and reconnect with nature. Whether you're seeking a peaceful retreat
-            or an adventure-filled stay, A Creations Farm Stay has something to
-            offer for everyone.
+            or an adventure-filled stay, Navi Luxury Farm has something to offer
+            for everyone.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -140,16 +101,6 @@ const Home = () => {
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
-          <p>
-            To get a glimpse of the beauty that awaits you at A Creations Farm
-            Stay, feel free to browse through our{" "}
-            <a href="https://drive.google.com/drive/folders/1-UmEzmp_RIxe1hCB-GrLmRy7WSHHtNnL">
-              photo gallery
-            </a>
-            .
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation>
           <div className="gallery--container">
             <ScrollAnimation>
               <h3 className="gallery--title underlined-heading">
@@ -165,63 +116,8 @@ const Home = () => {
               </p>
             </ScrollAnimation>
             <ScrollAnimation>
-              <div className="container--text">
-                <h3 className="container--title">Interior</h3>
-                <p className="container--description">
-                  Step into our beautifully designed interior spaces that exude
-                  comfort and charm. Every detail has been carefully crafted to
-                  create a warm and inviting ambiance, ensuring a delightful
-                  stay for our guests.
-                </p>
-              </div>
               <div className="interiorImages-container">
                 <PropertySlider images={interiorImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Pool</h3>
-                <p className="container--description">
-                  Dive into ultimate relaxation in our refreshing pool. Take a
-                  dip to beat the heat, swim a few laps, or simply lounge by the
-                  poolside while enjoying the tranquil surroundings. Our pool
-                  area provides the perfect escape to rejuvenate and unwind.
-                </p>
-              </div>
-              <div className="poolImages-container">
-                <PropertySlider images={poolImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Lawn</h3>
-                <p className="container--description">
-                  Our sprawling lawn offers a serene outdoor space where you can
-                  relax and bask in the beauty of nature. Surrounded by lush
-                  greenery, it's the perfect spot for a leisurely stroll, an
-                  afternoon picnic, or simply unwinding with a good book.
-                </p>
-              </div>
-              <div className="lawnImages-container">
-                <PropertySlider images={lawnImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Bar Counter Setup</h3>
-                <p className="container--description">
-                  Unwind and socialize at our well-equipped bar counter.
-                </p>
-              </div>
-              <div className="barCounterImages-container">
-                <PropertySlider images={barCounterImages} />
-              </div>
-              <div className="container--text">
-                <h3 className="container--title">Kitchen</h3>
-                <p className="container--description">
-                  Our fully equipped kitchen is a haven for culinary
-                  enthusiasts. Prepare your favorite meals using top-of-the-line
-                  appliances, cookware, and utensils. Embrace your inner chef
-                  and delight in creating delicious dishes that cater to your
-                  personal tastes.
-                </p>
-              </div>
-              <div className="kitchenImages-container">
-                <PropertySlider images={kitchenImages} />
               </div>
             </ScrollAnimation>
           </div>
@@ -321,32 +217,31 @@ const Home = () => {
               <p>For bookings and further inquiries, please contact us at:</p>
             </ScrollAnimation>
             <ScrollAnimation>
-              <p>Phone: 9393031001, 9390058561</p>
+              <p>Phone: 8008929237</p>
             </ScrollAnimation>
             <ScrollAnimation>
               <h1 className="underlined-heading">LOCATION</h1>
             </ScrollAnimation>
             <ScrollAnimation>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7620.205964181371!2d78.325506!3d17.262252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbf271a7aa60b%3A0x1fee920eb7355b98!2sA%20Creations%20Farm%20Stay!5e0!3m2!1sen!2sin!4v1689205088239!5m2!1sen!2sin"
-                width="100%"
-                height="400"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.8396264919943!2d78.38048757427228!3d17.226567607419913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbb9f5ace2ed93%3A0x15626a7a17d570fc!2sNavi%20Farm%20House!5e0!3m2!1sen!2sin!4v1689886071627!5m2!1sen!2sin"
+                width="600"
+                height="450"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                className="map"
               ></iframe>
             </ScrollAnimation>
             <ScrollAnimation>
               <h3 className="directions">
-                <a
-                  href="https://maps.google.com/maps/dir//A+Creations+Farm+Stay+6-29%2F121%2FP,+Narkhuda,+Shamsabad+Hyderabad,+Telangana+501218/@17.2622117,78.3254986,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcbbf271a7aa60b:0x1fee920eb7355b98"
+                <Link
+                  to="https://goo.gl/maps/K98LdEaRfmiFGbgc6"
                   target="_blank"
-                  rel="noreferrer"
-                  className="directions--a"
                 >
                   Get Directions
-                </a>
+                </Link>
               </h3>
             </ScrollAnimation>
           </div>
@@ -360,17 +255,16 @@ const Home = () => {
             </h1>
             <div className="wrapper animated bounceInLeft">
               <div className="company-info">
-                <h3 className="company-info-title">A Creations Farm Stay</h3>
+                <h3 className="company-info-title">Navi Luxury Farms</h3>
                 <ul>
                   <li>
-                    <FaRoad /> : 6-29/121/P, Narkhuda, Shamsabad, Hyderabad,
-                    Telangana 501218
+                    <FaRoad /> : Shamshabad, Hyderabad, Telangana 501218
                   </li>
                   <li>
-                    <FaPhone /> : 9393031001 / 9390058561
+                    <FaPhone /> : 8008929237
                   </li>
                   <li>
-                    <FaEnvelope /> : anupkumarheda@gmail.com
+                    <FaEnvelope /> : xxxxx@gmail.com
                   </li>
                 </ul>
               </div>
