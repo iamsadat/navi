@@ -18,7 +18,7 @@ import image4 from "../assets/photos/image4.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const interiorImages = [image1, image2, image3, image4];
+  const interiorImages = [image2, image1, image3, image4];
 
   const kitchenImages = [
     "https://github.com/Shoeb891/jagermeister/blob/master/src/assests/kitchen/IMG_8053.jpg?raw=true",
@@ -42,55 +42,79 @@ const Home = () => {
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Welcome to Navi Luxury Farmhouse: Your Exquisite Retreat for Memorable Staycations and Unforgettable Celebrations!
+            Welcome to Navi Luxury Farmhouse: Your Exquisite Retreat for
+            Memorable Staycations and Unforgettable Celebrations!
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Discover the Ultimate Getaway:
-            Nestled amidst nature's embrace, Navi Luxury Farmhouse offers an unrivaled escape from the hustle and bustle of everyday life. Whether you seek a serene staycation with your loved ones or wish to host a joyous celebration, our farmhouse provides the perfect backdrop for your dreams to come true.
+            Discover the Ultimate Getaway: Nestled amidst nature's embrace, Navi
+            Luxury Farmhouse offers an unrivaled escape from the hustle and
+            bustle of everyday life. Whether you seek a serene staycation with
+            your loved ones or wish to host a joyous celebration, our farmhouse
+            provides the perfect backdrop for your dreams to come true.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Luxury Redefined:
-            Step into a world of opulence as you enter our stunning farmhouse. Experience a seamless blend of modern amenities and rustic charm, designed to elevate your comfort to new heights. From plush furnishings to thoughtfully curated decor, every corner exudes a sense of luxury and sophistication.
+            Luxury Redefined: Step into a world of opulence as you enter our
+            stunning farmhouse. Experience a seamless blend of modern amenities
+            and rustic charm, designed to elevate your comfort to new heights.
+            From plush furnishings to thoughtfully curated decor, every corner
+            exudes a sense of luxury and sophistication.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            A Staycation Haven:
-            Experience relaxation like never before in our well-appointed accommodation. Indulge in the cozy ambiance of our beautifully decorated rooms, each offering a serene view of the surrounding landscape. Rejuvenate your senses as you wake up to the sounds of nature and bask in the warm sunlight filtering through the curtains.
+            A Staycation Haven: Experience relaxation like never before in our
+            well-appointed accommodation. Indulge in the cozy ambiance of our
+            beautifully decorated rooms, each offering a serene view of the
+            surrounding landscape. Rejuvenate your senses as you wake up to the
+            sounds of nature and bask in the warm sunlight filtering through the
+            curtains.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Host Your Celebrations:
-            At Navi Luxury Farmhouse, we believe that every celebration should be nothing short of extraordinary. Our sprawling lawn, exquisitely manicured and adorned with vibrant blooms, serves as the perfect setting for your special occasions. Whether it's a birthday bash, a family reunion, or any other event, our dedicated team will ensure that your celebration is flawlessly executed, leaving you with cherished memories to last a lifetime.
-
+            Host Your Celebrations: At Navi Luxury Farmhouse, we believe that
+            every celebration should be nothing short of extraordinary. Our
+            sprawling lawn, exquisitely manicured and adorned with vibrant
+            blooms, serves as the perfect setting for your special occasions.
+            Whether it's a birthday bash, a family reunion, or any other event,
+            our dedicated team will ensure that your celebration is flawlessly
+            executed, leaving you with cherished memories to last a lifetime.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Dive into Bliss:
-            A shimmering oasis awaits you at our swimming pool, inviting you to take a refreshing dip or simply unwind by the water's edge. Soak up the sun on comfortable loungers or enjoy a poolside barbecue with your friends and family - the choice is yours!
+            Dive into Bliss: A shimmering oasis awaits you at our swimming pool,
+            inviting you to take a refreshing dip or simply unwind by the
+            water's edge. Soak up the sun on comfortable loungers or enjoy a
+            poolside barbecue with your friends and family - the choice is
+            yours!
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Explore Nature's Bounty:
-            As the sun sets, take leisurely walks amidst the verdant surroundings and embrace the tranquility of the countryside. Let the cool breeze kiss your cheeks as you relish the beauty of a starlit sky, far away from the city's bright lights.
+            Explore Nature's Bounty: As the sun sets, take leisurely walks
+            amidst the verdant surroundings and embrace the tranquility of the
+            countryside. Let the cool breeze kiss your cheeks as you relish the
+            beauty of a starlit sky, far away from the city's bright lights.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Your Dream Getaway Awaits:
-            Whether it's a peaceful staycation or a grand celebration, Navi Luxury Farmhouse promises an unforgettable experience for you and your loved ones. Come, escape to a world of luxury and delight in a home away from home.
+            Your Dream Getaway Awaits: Whether it's a peaceful staycation or a
+            grand celebration, Navi Luxury Farmhouse promises an unforgettable
+            experience for you and your loved ones. Come, escape to a world of
+            luxury and delight in a home away from home.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
           <p>
-            Book your stay or event now and embark on an extraordinary journey with us at Navi Luxury Farmhouse - where cherished memories are made, and dreams come to life.
+            Book your stay or event now and embark on an extraordinary journey
+            with us at Navi Luxury Farmhouse - where cherished memories are
+            made, and dreams come to life.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -115,89 +139,103 @@ const Home = () => {
             </ScrollAnimation>
           </div>
         </ScrollAnimation>
-
-        <ScrollAnimation>
-          <h1 className="underlined-heading">AMENITIES</h1>
-        </ScrollAnimation>
-        <ScrollAnimation>
-          <p>
-            We take pride in offering a wide range of amenities to make your
-            experience enjoyable and memorable. Here is a list of amenities
-            available:
-          </p>
-        </ScrollAnimation>
+        <div className="amenities">
+          <ScrollAnimation>
+            <h1 className="underlined-heading">AMENITIES</h1>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <p>
+              We take pride in offering a wide range of amenities to make your
+              experience enjoyable and memorable. Here is a list of amenities
+              available:
+            </p>
+          </ScrollAnimation>
+        </div>
         <ul class="amenities-list">
-        <ScrollAnimation>
-                <li>
-                  Sparkling Swimming Pool:
-                  Take a dip and unwind in our pristine swimming pool. Whether you're looking to cool off on a sunny day or simply wish to indulge in some leisurely water activities, our spacious pool area offers the perfect spot to relax and rejuvenate.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Thrilling Box Cricket Pitch:
-                  For all the cricket enthusiasts out there, NLF presents an exciting box cricket pitch that guarantees endless hours of fun and competitive play. Gather your friends and family for thrilling matches and create lasting memories on the field.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Movie Nights Under the Stars:
-                  Experience the magic of outdoor cinema with our state-of-the-art projector setup. Gather around with your loved ones, lie back under the starry night sky, and immerse yourself in your favorite movies or catch the latest blockbusters in a unique and enchanting setting.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Lush Green Lawn:
-                  Our picturesque lawn, meticulously manicured and surrounded by lush greenery, offers a perfect setting for various activities and leisurely strolls. It's an ideal space to host outdoor events, play games, or simply enjoy the beauty of nature.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Cozy Bonfire Area:
-                  As the evening sets in, gather around the warm and inviting bonfire area. Share stories, laughter, and create heartwarming memories with your friends and family as you embrace the crackling flames and soothing ambiance.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Water Games in Swimming Pool: Dive into the fun with our
-                  exciting water games in the swimming pool. Engage in
-                  activities that promise laughter and entertainment.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Board Games: Spend quality time indoors with our collection of
-                  board games. Challenge your friends and family to a friendly
-                  competition.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Kitchen: Our well-equipped kitchen is at your disposal. It
-                  includes a gas stove, utensils, and crockery, allowing you to
-                  prepare your favorite meals during your stay.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Microwave: Conveniently warm up snacks or heat leftovers using
-                  the microwave available in your accommodation.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Double Door Refrigerator: Store your food and beverages in our
-                  spacious double door refrigerator. Keep your items fresh and
-                  easily accessible.
-                </li>
-              </ScrollAnimation>
-              <ScrollAnimation>
-                <li>
-                  Generator: In the event of a power outage, our generator
-                  ensures uninterrupted electricity supply, allowing you to
-                  enjoy your stay without any disruptions.
-                </li>
-              </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Sparkling Swimming Pool: Take a dip and unwind in our pristine
+              swimming pool. Whether you're looking to cool off on a sunny day
+              or simply wish to indulge in some leisurely water activities, our
+              spacious pool area offers the perfect spot to relax and
+              rejuvenate.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Thrilling Box Cricket Pitch: For all the cricket enthusiasts out
+              there, NLF presents an exciting box cricket pitch that guarantees
+              endless hours of fun and competitive play. Gather your friends and
+              family for thrilling matches and create lasting memories on the
+              field.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Movie Nights Under the Stars: Experience the magic of outdoor
+              cinema with our state-of-the-art projector setup. Gather around
+              with your loved ones, lie back under the starry night sky, and
+              immerse yourself in your favorite movies or catch the latest
+              blockbusters in a unique and enchanting setting.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Lush Green Lawn: Our picturesque lawn, meticulously manicured and
+              surrounded by lush greenery, offers a perfect setting for various
+              activities and leisurely strolls. It's an ideal space to host
+              outdoor events, play games, or simply enjoy the beauty of nature.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Cozy Bonfire Area: As the evening sets in, gather around the warm
+              and inviting bonfire area. Share stories, laughter, and create
+              heartwarming memories with your friends and family as you embrace
+              the crackling flames and soothing ambiance.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Water Games in Swimming Pool: Dive into the fun with our exciting
+              water games in the swimming pool. Engage in activities that
+              promise laughter and entertainment.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Board Games: Spend quality time indoors with our collection of
+              board games. Challenge your friends and family to a friendly
+              competition.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Kitchen: Our well-equipped kitchen is at your disposal. It
+              includes a gas stove, utensils, and crockery, allowing you to
+              prepare your favorite meals during your stay.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Microwave: Conveniently warm up snacks or heat leftovers using the
+              microwave available in your accommodation.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Double Door Refrigerator: Store your food and beverages in our
+              spacious double door refrigerator. Keep your items fresh and
+              easily accessible.
+            </li>
+          </ScrollAnimation>
+          <ScrollAnimation>
+            <li>
+              Generator: In the event of a power outage, our generator ensures
+              uninterrupted electricity supply, allowing you to enjoy your stay
+              without any disruptions.
+            </li>
+          </ScrollAnimation>
         </ul>
         <ScrollAnimation>
           <div class="contact---info">

@@ -485,6 +485,11 @@ body {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .amenities {
+    position: relative;
+    margin-top: 400px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -498,6 +503,11 @@ body {
 
   .footer__container {
     gap: 2rem;
+  }
+
+  .amenities {
+    position: relative;
+    margin-top: 320px;
   }
 }
 
@@ -585,6 +595,7 @@ ol {
 .amenities-list {
   color: #2c3855;
 }
+
 .underlined-heading {
   margin-top: 10px;
   text-decoration: underline;
