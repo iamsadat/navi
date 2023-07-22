@@ -118,39 +118,34 @@ const About = () => {
               </p>
             </ScrollAnimation>
             <ul class="amenities-list">
-              <ScrollAnimation>
+            <ScrollAnimation>
                 <li>
-                  Swimming Pool: Take a refreshing dip in our sparkling swimming
-                  pool. Enjoy a relaxing swim or engage in water games to make
-                  the most of your time.
+                  Sparkling Swimming Pool:
+                  Take a dip and unwind in our pristine swimming pool. Whether you're looking to cool off on a sunny day or simply wish to indulge in some leisurely water activities, our spacious pool area offers the perfect spot to relax and rejuvenate.
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
                 <li>
-                  Bar Counter Setup: Unwind and socialize at our fully equipped
-                  bar counter. Enjoy a variety of drinks and cocktails prepared
-                  by our skilled bartenders.
+                  Thrilling Box Cricket Pitch:
+                  For all the cricket enthusiasts out there, NLF presents an exciting box cricket pitch that guarantees endless hours of fun and competitive play. Gather your friends and family for thrilling matches and create lasting memories on the field.
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
                 <li>
-                  BBQ (Coal): Experience the joy of outdoor grilling with our
-                  BBQ facilities. Cook up delicious meals using coal and enjoy a
-                  flavorful dining experience.
+                  Movie Nights Under the Stars:
+                  Experience the magic of outdoor cinema with our state-of-the-art projector setup. Gather around with your loved ones, lie back under the starry night sky, and immerse yourself in your favorite movies or catch the latest blockbusters in a unique and enchanting setting.
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
                 <li>
-                  Bonfire: Gather around a cozy bonfire and create unforgettable
-                  memories. Please note that there is an additional charge of
-                  ₹1500 for a two-hour bonfire session.
+                  Lush Green Lawn:
+                  Our picturesque lawn, meticulously manicured and surrounded by lush greenery, offers a perfect setting for various activities and leisurely strolls. It's an ideal space to host outdoor events, play games, or simply enjoy the beauty of nature.
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
                 <li>
-                  Cycling: Explore the surroundings on two wheels with our
-                  complimentary cycling facilities. Discover the area's scenic
-                  beauty while enjoying a leisurely ride.
+                  Cozy Bonfire Area:
+                  As the evening sets in, gather around the warm and inviting bonfire area. Share stories, laughter, and create heartwarming memories with your friends and family as you embrace the crackling flames and soothing ambiance.
                 </li>
               </ScrollAnimation>
               <ScrollAnimation>
