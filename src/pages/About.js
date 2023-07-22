@@ -44,70 +44,6 @@ const About = () => {
               <VideoSlider videos={videos} />
             </div>
             <ScrollAnimation>
-              <h1 className="underlined-heading">Navi Luxury Farm</h1>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                Welcome to Navi Luxury Farm! Escape the hustle and bustle of
-                city life and experience the tranquility of our charming farm
-                rental. Nestled in a serene location, our farm stay offers a
-                perfect getaway for a relaxing and rejuvenating experience.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                Immerse yourself in the natural beauty that surrounds our farm.
-                Enjoy the picturesque landscapes, breathe in the fresh country
-                air, and reconnect with nature. Whether you're seeking a
-                peaceful retreat or an adventure-filled stay, Navi Luxury Farm
-                has something to offer for everyone.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                Our farm rental provides a range of amenities to ensure a
-                comfortable and enjoyable stay. Take a refreshing dip in the
-                swimming pool or engage in water games to beat the heat. Unwind
-                at the bar counter and savor a variety of drinks and cocktails
-                prepared by our skilled bartenders. Experience the joy of
-                outdoor grilling with our BBQ facilities and indulge in
-                flavorful meals cooked with coal.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                As the sun sets, gather around the bonfire and create
-                unforgettable memories with your loved ones. Explore the
-                surroundings on complimentary bicycles or engage in friendly
-                competition with a collection of board games available for your
-                entertainment.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                Our well-equipped kitchen is at your disposal, complete with a
-                gas stove, utensils, and crockery. Prepare your favorite meals
-                using fresh ingredients and enjoy a homely dining experience.
-                Additionally, a microwave and double door refrigerator are
-                provided for your convenience.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                We understand the importance of uninterrupted comfort during
-                your stay. In the event of a power outage, our generator ensures
-                a seamless experience.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
-              <p>
-                For parties and corporate events, we offer tailored packages to
-                cater to your specific needs. With a capacity to accommodate up
-                to 100 guests, our farm stay provides a unique and picturesque
-                venue for your special occasions.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation>
               <h1 className="underlined-heading">AMENITIES</h1>
             </ScrollAnimation>
             <ScrollAnimation>
@@ -215,6 +151,7 @@ const About = () => {
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
+                    className="map"
                   ></iframe>
                 </ScrollAnimation>
                 <ScrollAnimation>
